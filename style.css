@@ -1,0 +1,364 @@
+/* start fixed rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Alegreya";
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.left-side,
+.right-side {
+  display: inline-block;
+  width: 49.8%;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+.who-we-are .right-side img,
+.contact-us-section .left-side img {
+  width: 40px;
+  vertical-align: middle;
+  border: 1px solid rgba(0, 0, 0, 20%);
+  border-radius: 50%;
+  margin: 10px 10px 10px 0;
+}
+
+.clear-fix {
+  clear: both;
+}
+/* end fixed rules */
+
+/* start styling header */
+.header {
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.header .logo,
+.header .links {
+  display: inline-block;
+  width: 49.8%;
+}
+
+.header .logo img {
+  width: 25%;
+  vertical-align: middle;
+}
+
+.header .links ul {
+  text-align: right;
+}
+
+.header .links ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header .links ul li.bordered {
+  border-top: 2px solid #8e7754;
+  padding-top: 20px;
+}
+
+.header .links ul li a {
+  color: white;
+  font-weight: 400;
+  font-size: large;
+}
+
+.header .heading-text {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+.header .heading-text h1 {
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.header .heading-text p {
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+  padding: 25px 0;
+  line-height: 40px;
+}
+
+.header .heading-text .header-btns {
+  margin-top: 30px;
+}
+
+.header .heading-text a {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+  font-weight: normal;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.header .heading-text .learn-more {
+  background-color: #8e7754;
+  padding: 15px;
+  border: 2px solid #8e7754;
+}
+
+.header .heading-text .contact-us {
+  background-color: transparent;
+  padding: 15px;
+  border: 2px solid white;
+}
+/* end styling header */
+
+/* start styling who we are section */
+.who-we-are {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.who-we-are .left-side img {
+  width: 100%;
+}
+
+.who-we-are .right-side h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.who-we-are .right-side p {
+  color: #686868;
+  line-height: 30px;
+}
+
+.who-we-are .right-side span {
+  font-size: 15px;
+  color: #686868;
+}
+
+/* end styling who we are section */
+
+/* start styling our location section*/
+.our-location {
+  background-color: #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.our-location .left-side h2 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.our-location .left-side p {
+  color: #686868;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.our-location .right-side img {
+  width: 100%;
+}
+/* end styling our location section*/
+
+/* start styling our baking section */
+.our-baking {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.our-baking .container .main-dev {
+  text-align: center;
+  width: 100%;
+}
+
+.our-baking .container .main-dev h2 {
+  font-size: 30px;
+  font-weight: normal;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+.our-baking .container .main-dev > p {
+  color: #686868;
+  font-size: 10;
+  padding-bottom: 20px;
+}
+
+.our-baking .container .main-dev .cards-content .cards {
+  width: 30%;
+  margin: 18px;
+  float: left;
+}
+
+.our-baking .container .main-dev .cards-content .cards img {
+  width: 100%;
+}
+
+.our-baking .container .main-dev .cards-content .cards h3 {
+  font-weight: normal;
+  font-size: 22px;
+  padding: 20px;
+}
+
+.our-baking .container .main-dev .cards-content .cards p {
+  color: #686868;
+  font-size: 10;
+  line-height: 30px;
+  padding: 0 5px;
+}
+/* end styling our baking section */
+
+/* start styling contact us section */
+.contact-us-section {
+  background-color: #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-us-section .container .left-side {
+  float: left;
+}
+
+.contact-us-section .container .left-side h2 {
+  font-size: 30px;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+
+.contact-us-section .container .left-side p {
+  color: #686868;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+
+.contact-us-section .container .left-side ul li span {
+  color: #686868;
+  font-size: 17px;
+}
+
+.contact-us-section .container .right-side {
+  float: right;
+}
+
+.contact-us-section .left-side img {
+  background-color: #8e7754;
+}
+
+.contact-us-section .container .right-side iframe {
+  width: 100%;
+  height: 550px;
+}
+/* end styling contact us section */
+
+/* start styling information section */
+.information {
+  color: #969696;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #403d38;
+}
+
+.information .container .frac {
+  float: left;
+  width: calc(25% - 40px);
+  margin: 0 15px;
+}
+
+.information .container .frac h3 {
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.information .container .frac p {
+  line-height: 30px;
+  margin-top: 38px;
+  font-size: 16px;
+}
+
+.information .container .frac-img {
+  background-image: url(images/contact-details-map.png);
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.information .container .frac ul li {
+  padding: 10px 0;
+}
+
+.information .container .frac ul li:not(:last-child) {
+  border-bottom: 1px solid #969696;
+}
+
+.information .container .frac ul li span {
+  font-size: 16px;
+}
+
+.information .container .frac ul li img {
+  width: 20px;
+  vertical-align: middle;
+}
+
+.information .container .frac .contact-icon {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.information .container .frac ul li a {
+  color: #969696;
+}
+
+/* end styling information section */
+
+/* start styling footer section */
+.footer {
+  background-color: #353330;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer p {
+  margin: 20px 0;
+  color: #686868;
+}
+
+.footer .footer-icons img {
+  width: 40px;
+  background-color: #403d38;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+/* end styling footer section */
